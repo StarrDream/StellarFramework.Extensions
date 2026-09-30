@@ -3,7 +3,7 @@
 Add optional Algorithms, World, Flow, and HotUpdate capabilities to a Unity project that already uses StellarFramework. This is an **Assets source extension release**, not a standalone Unity project.
 
 Release: 1.0.0
-Source: StellarFramework.Dev@591d8c9b9ffb99b138ef583bee13e25f067bb5eb
+Source: StellarFramework.Dev@c9c59619197c7c9597c46457e1172d383ade550b
 
 ## Start with General
 
