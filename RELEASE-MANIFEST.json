@@ -57,6 +57,6 @@
     "com.code-philosophy.hybridclr": "https://github.com/focus-creative-games/hybridclr_unity.git#4feac30cb2e105992986c737f7f54992b8300e1a",
     "com.cysharp.unitask": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask#e5acc106ee196bc5a32fb14cdf2987b0f96d11e0"
   },
-  "validation": "UNVERIFIED: STATIC_REVIEW_PASS; UNITY_COMPILE_PASS; FLOWKIT_EDITMODE_BLOCKED_UNSAVED_SCENE; ANDROID_NOT_RUN",
+  "validation": "UNVERIFIED: STATIC_REVIEW_PASS; UNITY_COMPILE_PASS; FLOWKIT_EDITMODE_BLOCKED_UNSAVED_SCENE; ANDROID_PREPARATION_FAIL_GENERATESTRIPEDAOTDLLS; DEVICE_GATE_NOT_REACHED",
   "fileCount": 911
 }
