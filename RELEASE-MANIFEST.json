@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "repository": "StarrDream/StellarFramework.Extensions",
   "sourceRepository": "StarrDream/StellarFramework.Dev",
-  "sourceCommit": "b5b63c1379152c402beaefcf19ce6df10074b9fb",
+  "sourceCommit": "48491db8044172dce4eb8dd41d8b6fa2b09cf648",
   "profile": "Extensions",
   "domains": [
     "algorithms",
@@ -53,6 +53,10 @@
     "savekit.core",
     "toolshub.core"
   ],
-  "validation": "STATIC_PASS_UNITY_PENDING",
-  "fileCount": 906
+  "requiredUpm": {
+    "com.code-philosophy.hybridclr": "https://github.com/focus-creative-games/hybridclr_unity.git#4feac30cb2e105992986c737f7f54992b8300e1a",
+    "com.cysharp.unitask": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask#e5acc106ee196bc5a32fb14cdf2987b0f96d11e0"
+  },
+  "validation": "PASS",
+  "fileCount": 910
 }
