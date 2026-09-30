@@ -3,7 +3,7 @@
 给已在 Unity 项目中使用 StellarFramework 的开发者添加 Algorithms、World、Flow 和 HotUpdate 扩展。本仓是 **Assets 源码扩展发布**，不是可单独打开的 Unity 工程。
 
 发布版本：1.0.0
-源码：StellarFramework.Dev@c9c59619197c7c9597c46457e1172d383ade550b
+源码：StellarFramework.Dev@92c2dd1b2cdea9e5ecbc5b6df0a525267ad16035
 
 ## 先看这一条
 
