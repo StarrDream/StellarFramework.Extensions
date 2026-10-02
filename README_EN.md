@@ -4,7 +4,7 @@ Source assets for the Algorithms, World, Flow, and HybridCLR HotUpdate capabilit
 
 Release: 1.0.0
 
-Source commit: [96e6b093e081b5a5c844341b58be3561583f5e6f](https://github.com/StarrDream/StellarFramework.Dev/commit/96e6b093e081b5a5c844341b58be3561583f5e6f)
+Source commit: [03c9b93eb569b439a24206513784b29496dd62c2](https://github.com/StarrDream/StellarFramework.Dev/commit/03c9b93eb569b439a24206513784b29496dd62c2)
 
 Install the matching [StellarFramework General](https://github.com/StarrDream/StellarFramework) release first. The General profiles and UPM packages required by this release are listed as <code>requiredGeneralProfileIds</code> and <code>requiredUpm</code> in <code>RELEASE-MANIFEST.json</code>.
 

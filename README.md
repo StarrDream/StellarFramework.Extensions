@@ -4,7 +4,7 @@
 
 发布版本：1.0.0
 
-源码提交：[96e6b093e081b5a5c844341b58be3561583f5e6f](https://github.com/StarrDream/StellarFramework.Dev/commit/96e6b093e081b5a5c844341b58be3561583f5e6f)
+源码提交：[03c9b93eb569b439a24206513784b29496dd62c2](https://github.com/StarrDream/StellarFramework.Dev/commit/03c9b93eb569b439a24206513784b29496dd62c2)
 
 使用本仓前，先安装相同发布版本的 [StellarFramework General](https://github.com/StarrDream/StellarFramework)。本仓要求的 General Profile 和 UPM 包分别列在 <code>RELEASE-MANIFEST.json</code> 的 <code>requiredGeneralProfileIds</code> 与 <code>requiredUpm</code> 中。
 
