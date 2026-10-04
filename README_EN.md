@@ -2,15 +2,23 @@
 
 Source for the Algorithms, World, and Flow extension Kits. This repository contains Unity `Assets` that work with General; it is neither a standalone Unity project nor a UPM package. Use the [StellarFramework General](https://github.com/StarrDream/StellarFramework) release with the same version.
 
-Release: **1.0.2**
+Release: **1.0.3**
 
-Source commit: [f58b3ade29b37c0c3dbdc0b375f281296b2558d0](https://github.com/StarrDream/StellarFramework.Dev/commit/f58b3ade29b37c0c3dbdc0b375f281296b2558d0)
+Source commit: [fba5bb700554e5aafe6472e421bcb8523a84cb87](https://github.com/StarrDream/StellarFramework.Dev/commit/fba5bb700554e5aafe6472e421bcb8523a84cb87)
 
 ## Framework and extensions
 
-StellarFramework assembles game infrastructure from Kits. General provides shared Runtime services, Tools Hub, resource, localization, UI, and persistence capabilities. This repository adds Kits for the Algorithms, World, and Flow domains. Kit dependencies are declared in the catalog, so a project can export only the capabilities it uses.
+StellarFramework is layered as **Runtime foundation → feature Kits → adapters/providers → Unity or third-party implementations**. General supplies shared services and common Kits. Extensions reuses those capabilities through declared dependencies and can be exported selectively. Tools Hub handles configuration and export in the Editor; it is not part of the game Player.
 
 Extensions contains Unity `Assets` source for use with the matching General release. It is not a standalone Unity project. Start with the same-version General project and preserve `.meta` files when combining the source trees.
+
+| Domain | Main Kits and purpose |
+| --- | --- |
+| Algorithms | GridKit (grids and topology), SpatialKit (spatial queries), PathKit (pathfinding), SimulationKit (simulation primitives) |
+| World | WorldKit (world state), WorldGenKit (procedural generation), PlacementKit (placement rules), Streaming (chunk loading and save integration) |
+| Flow | FlowKit (flow data and execution), Unity integration, visual editor, and validation tools |
+
+Unity adapters, Editor tools, and dependencies are split into catalog Profiles so projects can export the combinations they need.
 
 ## Quick start: export extension Kits from General
 

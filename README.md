@@ -2,15 +2,23 @@
 
 Algorithms、World 和 Flow 的 StellarFramework 扩展 Kit 源码仓。本仓提供可与 General 组合的 Unity `Assets` 内容；它不是独立 Unity 工程，也不是 UPM 包。使用前请准备与本仓发布版本相同的 [StellarFramework General](https://github.com/StarrDream/StellarFramework)。
 
-发布版本：**1.0.2**
+发布版本：**1.0.3**
 
-源码提交：[f58b3ade29b37c0c3dbdc0b375f281296b2558d0](https://github.com/StarrDream/StellarFramework.Dev/commit/f58b3ade29b37c0c3dbdc0b375f281296b2558d0)
+源码提交：[fba5bb700554e5aafe6472e421bcb8523a84cb87](https://github.com/StarrDream/StellarFramework.Dev/commit/fba5bb700554e5aafe6472e421bcb8523a84cb87)
 
 ## 框架与扩展概览
 
-StellarFramework 通过 Kit 组合游戏基础能力。General 提供通用 Runtime、Tools Hub、资源、本地化、UI 和存档等能力；本仓库在此基础上增加 Algorithms、World 和 Flow 领域的扩展 Kit。每个 Kit 按依赖声明组合，使用者可以只导出项目需要的部分。
+StellarFramework 按“基础运行时 → 功能 Kit → Adapter / Provider → Unity 或第三方实现”分层。General 提供通用基础服务和常用 Kit；Extensions 通过声明依赖复用 General 能力，并可按需单独导出。Tools Hub 在 Editor 中负责配置和导出，不进入游戏 Player。
 
 Extensions 发布的是与对应版本 General 配套的 Unity `Assets` 源码，不是独立工程。第一次使用前，请准备与本仓版本一致的 General，并保留合并文件的 `.meta`。
+
+| 扩展领域 | 主要 Kit 与用途 |
+| --- | --- |
+| Algorithms | GridKit（网格与拓扑）、SpatialKit（空间查询）、PathKit（寻路）、SimulationKit（模拟能力） |
+| World | WorldKit（世界状态）、WorldGenKit（程序化生成）、PlacementKit（放置规则）、Streaming（分块加载与存档集成） |
+| Flow | FlowKit（流程图数据与执行）、Unity 集成、可视化编辑器与校验工具 |
+
+各 Kit 的 Unity 适配器、Editor 工具和依赖按 Catalog 中的 Profile 拆分，导出时可选择需要的组合。
 
 ## 快速开始：从 General 导出扩展 Kit
 
