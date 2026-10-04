@@ -1,10 +1,10 @@
 # StellarFramework.Extensions
 
-Source assets for the Algorithms, World, Flow, and HybridCLR HotUpdate capabilities in StellarFramework. This repository contains Unity <code>Assets</code> content; it is not a standalone Unity project or a UPM package.
+Source assets for the Algorithms, World, and Flow capabilities in StellarFramework. This repository contains Unity <code>Assets</code> content; it is not a standalone Unity project or a UPM package. The HybridCLR code hot-update Kit and HotUpdate Publisher are part of the matching General release.
 
-Release: 1.0.0
+Release: 1.0.1
 
-Source commit: [03c9b93eb569b439a24206513784b29496dd62c2](https://github.com/StarrDream/StellarFramework.Dev/commit/03c9b93eb569b439a24206513784b29496dd62c2)
+Source commit: [a6c6a25ffb658740ec01659e109af19439fb4fb1](https://github.com/StarrDream/StellarFramework.Dev/commit/a6c6a25ffb658740ec01659e109af19439fb4fb1)
 
 Install the matching [StellarFramework General](https://github.com/StarrDream/StellarFramework) release first. The General profiles and UPM packages required by this release are listed as <code>requiredGeneralProfileIds</code> and <code>requiredUpm</code> in <code>RELEASE-MANIFEST.json</code>.
 
@@ -29,14 +29,6 @@ Confirm that the project contains the profiles listed in <code>requiredGeneralPr
 | Algorithms | GridKit, SpatialKit, PathKit, SimulationKit, and related adapters |
 | World | WorldKit, WorldGenKit, PlacementKit, Streaming, and World Framework tools |
 | Flow | FlowKit Core, Unity integration, graph editor, and validation tools |
-| HotUpdate | HybridCLRKit, build tools, and HotUpdate Publisher |
-
-## HotUpdate
-
-The code hot-update workflow combines HybridCLR with **YooAsset**. The Addressables resource profiles are separate and are not part of this hot-update path. A target project must build the Player, HybridCLR artifacts, AOT metadata, YooAsset manifest, and content for the same platform and release version. Run the release gates for cold start, cached restart, and rollback before shipping.
-
-The Publisher supports local-folder and S3-compatible targets. Production endpoints, credentials, TLS, and permissions are project-specific; run a Dry Run and release verification against the target environment before deployment. See <code>Assets/StellarFramework/FrameworkDoc/02-Kits/HybridCLRKit</code>.
-
 ## Guides and release contents
 
 Kit guides are under <code>Assets/StellarFramework/FrameworkDoc/02-Kits</code>; World Framework guides are under <code>Assets/StellarFramework/FrameworkDoc/06-WorldFramework</code>. <code>RELEASE-MANIFEST.json</code> records the source commit, profiles, required General profiles, and exact UPM specifications.

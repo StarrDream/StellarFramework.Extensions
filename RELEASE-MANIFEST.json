@@ -1,16 +1,15 @@
 {
   "schemaVersion": 1,
   "product": "StellarFramework.Extensions",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": "StarrDream/StellarFramework.Extensions",
   "sourceRepository": "StarrDream/StellarFramework.Dev",
-  "sourceCommit": "03c9b93eb569b439a24206513784b29496dd62c2",
+  "sourceCommit": "a6c6a25ffb658740ec01659e109af19439fb4fb1",
   "profile": "Extensions",
   "domains": [
     "algorithms",
     "world",
-    "flow",
-    "hotupdate"
+    "flow"
   ],
   "profileIds": [
     "flowkit.core",
@@ -18,8 +17,6 @@
     "flowkit.unity",
     "gridkit",
     "gridkit.unityprojection",
-    "hybridclrkit",
-    "hybridclrkit.tools",
     "pathkit",
     "pathkit.gridkit",
     "placementkit.core",
@@ -48,15 +45,12 @@
   ],
   "requiredGeneralProfileIds": [
     "logkit",
-    "poolkit",
-    "reskit.core",
     "savekit.core",
     "toolshub.core"
   ],
   "requiredUpm": {
-    "com.code-philosophy.hybridclr": "https://github.com/focus-creative-games/hybridclr_unity.git#4feac30cb2e105992986c737f7f54992b8300e1a",
     "com.cysharp.unitask": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask#e5acc106ee196bc5a32fb14cdf2987b0f96d11e0"
   },
-  "validation": "PASS",
-  "fileCount": 913
+  "validation": "UNVERIFIED",
+  "fileCount": 792
 }
