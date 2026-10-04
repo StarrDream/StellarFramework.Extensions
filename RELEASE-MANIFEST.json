@@ -4,7 +4,7 @@
   "version": "1.0.1",
   "repository": "StarrDream/StellarFramework.Extensions",
   "sourceRepository": "StarrDream/StellarFramework.Dev",
-  "sourceCommit": "a6c6a25ffb658740ec01659e109af19439fb4fb1",
+  "sourceCommit": "7fbf5dc8991bca08eb38dea738b1415f8d0adcfc",
   "profile": "Extensions",
   "domains": [
     "algorithms",
@@ -51,6 +51,6 @@
   "requiredUpm": {
     "com.cysharp.unitask": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask#e5acc106ee196bc5a32fb14cdf2987b0f96d11e0"
   },
-  "validation": "UNVERIFIED",
+  "validation": "PASS",
   "fileCount": 792
 }
